@@ -1,0 +1,156 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f266;
+    color: #333333;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #652828;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #656161;
+  }
+  
+  nav ul li {
+    float: left;
+  }
+  
+  nav a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    background-color: #dddddd;
+    color: rgb(210, 145, 145);
+  }
+  
+  footer {
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  /* Task 6: Enhance Navigation with Drop-down Menus */
+  nav ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+  }
+  
+  nav ul li:hover > ul {
+    display: inherit;
+  }
+  
+  nav ul ul li {
+    width: 100%;
+    float: none;
+    display: list-item;
+    position: relative;
+  }
+  
+  nav ul ul ul li {
+    position: relative;
+    top: -60px;
+    left: 100%;
+  }
+  
+
+  /* Add this to your existing CSS */
+
+.navbar {
+    overflow: hidden;
+    background-color: #0d0a0a;
+  }
+  
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .dropdown {
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #e1d9d9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    display: block;
+    text-decoration: none;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #7a3a3a;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+  }
+  
+  /* Task 5: Style Hyperlinks and Navigation Menu */
+  form {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    background-color: rgb(153, 204, 0);
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #55c355;
+  }
+  
+
